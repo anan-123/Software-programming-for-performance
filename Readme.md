@@ -1,6 +1,8 @@
 ## REPORT
-ANALYSING TOOLS
-PERF: It is a performance analysis tool for Linux
+# ANALYSING TOOLS
+
+# PERF: 
+It is a performance analysis tool for Linux
 ● perf stat: obtain event counts
 ● perf record: record events for later reporting
 ● perf report: break down events by process, function, etc.
@@ -9,11 +11,14 @@ PERF: It is a performance analysis tool for Linux
 ● perf bench: run different kernel microbenchmarks
  Performance counters for Linux are a new kernel-based subsystem that provides a framework for all things performance analysis. It covers hardware level (CPU/PMU, Performance Monitoring Unit) features and software features (software counters, tracepoints) as well.
 
-CACHE GRIND: It helps you find bad memories and memory leaks. It helps count the number of cache hits and cache misses.
+# CACHE GRIND: 
+It helps you find bad memories and memory leaks. It helps count the number of cache hits and cache misses.
 
-GPROF helps to analyze the behavior while running. It gives an analysis report of the program while running and gives the time consumption of each function. It analyses the connection between individual functions.
+# GPROF:
+It to analyze the behavior while running. It gives an analysis report of the program while running and gives the time consumption of each function. It analyses the connection between individual functions.
 
-CLOCK_GETTIME: It is present in the time.h library and is used to get the current time of the clock.
+# CLOCK_GETTIME: 
+It is present in the time.h library and is used to get the current time of the clock.
 
 syntax :
 ```
@@ -22,7 +27,7 @@ int clock_gettime( clockid_t clock_id , struct timespec* tp );
 clock_id : clock id
 tp: puts the time into the buffer pointed by tp
 ```
-MATRIX MULTIPLICATION
+# MATRIX MULTIPLICATION
 
 BASIC OPTIMIZATIONS DONE: 
 1. transpose of matrix - CACHE EFFECIENT
